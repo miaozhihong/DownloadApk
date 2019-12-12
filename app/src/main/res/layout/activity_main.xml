@@ -7,19 +7,26 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
+
     <Button
-        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:onClick="downApk"
-        android:layout_marginTop="40dp"
         android:text="下载" />
+
     <Button
-        android:id="@+id/anzhaung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="installAPK"
         android:layout_marginTop="40dp"
+        android:onClick="installAPK"
         android:text="安装" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="checkApk"
+        android:text="检查其他应用信息" />
 
 </LinearLayout>
